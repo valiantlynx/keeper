@@ -1,16 +1,16 @@
 import React from "react";
 
-function Footer(){
-    var today = new Date();
-    var year = today.getFullYear();
+function Footer() {
+  var today = new Date();
+  var year = today.getFullYear();
 
-    return(
+  return (
     <div>
-        <footer>
-            <p>Copyright {year} by Valiantlynx</p>
-        </footer>
+      <footer>
+        <p>Copyright ⓒ {year} by Valiantlynx</p>
+      </footer>
     </div>
-    );
+  );
 }
 
 export default Footer;
