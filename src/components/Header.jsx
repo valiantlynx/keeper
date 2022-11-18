@@ -1,14 +1,15 @@
 import React from "react";
+import RocketIcon from "@mui/icons-material/Rocket";
 
-function Heading(){
-    
-    return (
-    <div>
-        <header>
-            <h1>Keeper</h1>
-        </header>
-    
-    </div>);
+function Header() {
+  return (
+    <header>
+      <h1>
+        <RocketIcon />
+        Keeper
+      </h1>
+    </header>
+  );
 }
 
-export default Heading;
+export default Header;
