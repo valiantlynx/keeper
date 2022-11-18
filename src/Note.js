@@ -29,6 +29,13 @@ const notes = [
     content:
       "What's the difference between hard and soft? You can hit your hard with a hammer, but you can only curse at your soft."
   }
+  ,
+  {
+    key: 5,
+    title: "Gormery",
+    content:
+      "hey"
+  }
 ];
 
 export default notes;
